@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "npm app.js",
-    "server": "nodemon --watch server --exec babel-node -- server/app.js"
+    "start": "node app.js",
+    "server": "nodemon --watch server --exec babel-node -- app.js"
   },
   "author": "bantihon",
   "license": "ISC",

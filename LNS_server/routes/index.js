@@ -5,7 +5,7 @@ const { ensureAuthenticated } = require('../config/auth');
 
 //home page
 router.get('/', (req,res) =>{
-    res.redirect('https://presidents-by-years.herokuapp.com/ample.com');
+    res.redirect('http://exmple.com');
 });
 
 //logged in page
